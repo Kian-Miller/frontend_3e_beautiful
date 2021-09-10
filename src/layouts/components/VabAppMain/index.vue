@@ -1,6 +1,6 @@
 <template>
   <div v-if="routerView" class="app-main-container">
-    <vab-github-corner />
+    <!-- <vab-github-corner /> -->
     <transition mode="out-in" name="fade-transform">
       <keep-alive :include="cachedRoutes" :max="keepAliveMaxNum">
         <router-view :key="key" class="app-main-height" />
@@ -9,7 +9,7 @@
     <footer v-show="footerCopyright" class="footer-copyright">
       Copyright
       <vab-icon :icon="['fas', 'copyright']"></vab-icon>
-      vue-admin-beautiful-pro 开源免费版 {{ fullYear }}
+      3E系统
     </footer>
   </div>
 </template>

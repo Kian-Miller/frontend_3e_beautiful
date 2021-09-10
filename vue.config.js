@@ -31,6 +31,7 @@ process.env.VUE_APP_TITLE = title || 'vue-admin-beautiful'
 process.env.VUE_APP_AUTHOR = author || 'chuzhixin 1204505056@qq.com'
 process.env.VUE_APP_UPDATE_TIME = time
 process.env.VUE_APP_VERSION = version
+process.env.VUE_APP_BASE_URL = 'http://localhost:8080'
 
 const resolve = (dir) => path.join(__dirname, dir)
 const mockServer = () => {
