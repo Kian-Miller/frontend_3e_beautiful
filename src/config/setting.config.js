@@ -13,7 +13,7 @@ const setting = {
   // 进行编译的依赖
   transpileDependencies: [],
   //标题 （包括初次加载雪花屏的标题 页面的标题 浏览器的标题）
-  title: '3E系统',
+  title: '能源环境经济系统',
   //简写
   abbreviation: 'vab',
   //开发环境端口号
@@ -45,7 +45,7 @@ const setting = {
   //是否显示logo，不显示时设置false，显示时请填写remixIcon图标名称，暂时只支持设置remixIcon
   logo: 'vuejs-fill',
   //是否显示在页面高亮错误
-  errorLog: ['development', 'production'],
+  errorLog: ['production'],
   //是否开启登录拦截
   loginInterception: true,
   //是否开启登录RSA加密
@@ -65,6 +65,6 @@ const setting = {
   //代码生成机生成在view下的文件夹名称
   templateFolder: 'project',
   //是否显示终端donation打印
-  donation: true,
+  donation: false,
 }
 module.exports = setting

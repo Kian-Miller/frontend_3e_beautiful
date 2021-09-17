@@ -23,6 +23,7 @@ export const constantRoutes = [
   },
   {
     path: '/',
+    hidden: true,
     component: Layout,
     redirect: '/index',
     children: [
@@ -33,7 +34,7 @@ export const constantRoutes = [
         meta: {
           title: '首页',
           icon: 'home',
-          affix: true,
+          affix: false,
         },
       },
     ],
@@ -105,6 +106,7 @@ export const constantRoutes = [
   },
   {
     path: '/lxwm',
+    hidden: true,
     component: Layout,
     redirect: '/index',
     children: [
